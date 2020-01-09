@@ -1,5 +1,11 @@
 body{
-	margin-top:20px;
+	padding-top:10px;
+	padding-right:50px;
+}
+header{
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:50px;
 }
 .search{
 	float:right;
@@ -46,7 +52,8 @@ nav ul li a:hover{
 	color:red;
 	border-bottom:solid;
 	border-bottom-width:2px;
-	text-decoration:none;	
+	text-decoration:none;
+    padding-bottom:10px;	
 }
 
 nav ul li a:active{
@@ -59,7 +66,8 @@ nav ul li a:active{
 
 .stats ul li{
 	display:inline;
-	padding:10px;	
+	padding:10px;
+   	
 }
 
 
@@ -111,6 +119,20 @@ tr:hover {
 	padding:10px;
 }
 
+.sitemanager{
+	padding-top:15px;
+}
+
+.sitemanager h5{
+	padding-bottom:10px;
+	
+}
+
+.sitemanager h6{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
 .ic a{
 	
 	text-decoration:none;
@@ -128,23 +150,37 @@ tr:hover {
 }
 
 .ico{
-	font-size:30px;
+	font-size:24px;
 	padding:15px;
 	color:grey;
 }
 
 .ic{
 	margin-top:70px;
+	
 }
+
 
 .danger{
 	color:red;
+	
 }
 
 .graph{
 	color:blue;
+	padding-left:20px;
 }
 
 .store{
 	color:purple;
+}
+.main{
+	box-shadow: -10px 0px 10px #aaaaaa;
+}
+
+.icsize{
+	position:relative;
+	left:-15px;
+	top:10px;
+	font-size:25px;
 }
